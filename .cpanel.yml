@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/workshee/pt-getindonesia/
+    - export DEPLOYPATH=/home/workshee/main/
     - /bin/cp -R * $DEPLOYPATH
