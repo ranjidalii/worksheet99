@@ -90,7 +90,7 @@ h6 {
 
 #header h1 a {
   display: inline-block;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -110,7 +110,7 @@ h6 {
 }
 
 #header h2 {
-  font-size: 24px;
+  font-size: 1.1rem;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -211,7 +211,7 @@ h6 {
   }
 
   #header h2 {
-    font-size: 20px;
+    font-size: 1rem;
     line-height: 30px;
   }
 
@@ -220,9 +220,11 @@ h6 {
   }
 
   #header .container {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1rem auto; */
+    border-radius: 10px;
   }
 }
 
@@ -266,11 +268,12 @@ h6 {
   }
 
   #header.header-top h1 {
-    font-size: 26px;
+    font-size: 1.1rem;
   }
 
   #header .container {
-    margin: auto 6px;
+    margin: auto;
+    border-radius: 0px;
   }
 }
 
@@ -453,6 +456,11 @@ section .container {
 
   section.section-show {
     top: 80px;
+  }
+
+  #header .container {
+    margin: auto;
+    border-radius: 10px;
   }
 }
 
